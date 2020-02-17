@@ -34,6 +34,7 @@
   ],
   "scripts": {
     "start": "node app",
+    "prod": "NODE_ENV=production node app --url 'https://zhr.zodev.xyz'",
     "test": "mocha"
   }
 }
